@@ -1,3 +1,7 @@
 <app-server></app-server>
 <app-server></app-server>
 <app-server></app-server>
+<input type="text" class="form-control" [(ngModel)] = "productDescription">
+{{productDescription}}
+
+<button [disabled]="!isEnabled()">My button</button>
